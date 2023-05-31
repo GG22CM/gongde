@@ -10,7 +10,7 @@ body {
     transform: translateX(-50%);
     width: calc(477px / 4);
     height: calc(600px / 4);
-    background-image: url(/assets/gun.png);
+    background-image: url(./assets/gun.png);
     background-size: cover;
 }
 
@@ -21,7 +21,7 @@ body {
     transform: translate(-50%, -50%);
     width: calc(984px / 4);
     height: calc(774px / 4);
-    background-image: url(/assets/muyu.png);
+    background-image: url(./assets/muyu.png);
     background-size: cover;
  
 }

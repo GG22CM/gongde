@@ -45,7 +45,7 @@ const res = new Result()
 
 muyu.addEventListener('mousedown', function () {
     const audio = document.createElement('audio')
-    audio.src =  '/assets/muyuyin.mp3'
+    audio.src =  './assets/muyuyin.mp3'
     audio.play()
 
     reWidth = muyu.style.width 
