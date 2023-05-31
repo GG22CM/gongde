@@ -1,5 +1,6 @@
 const muyu = document.getElementById('muyu')
 const gun = document.getElementById('gun')
+const totalBox = document.getElementById('totalBox')
 // 
 
 let reWidth 
@@ -43,7 +44,7 @@ class Result {
 const res = new Result()
 
 
-muyu.addEventListener('mousedown', function () {
+totalBox.addEventListener('mousedown', function () {
     const audio = document.createElement('audio')
     audio.src =  './assets/muyuyin.mp3'
     audio.play()
@@ -61,7 +62,7 @@ muyu.addEventListener('mousedown', function () {
 })
 
 
-muyu.addEventListener('mouseup', function () {
+totalBox.addEventListener('mouseup', function () {
     gun.style.transform =  reTransform
     muyu.style.width = reWidth 
     muyu.style.height = reHeight

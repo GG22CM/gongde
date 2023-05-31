@@ -3,11 +3,21 @@ body {
     padding: 0;
     background-color: black;
 }
+
+#totalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+}
+
 #gun {
     position: absolute;
-    top: 30%;
-    left: 40%;
-    transform: translateX(-50%);
+    top: 0%;
+    left: 0%;
+    /* transform: translateX(-50%); */
     width: calc(477px / 4);
     height: calc(600px / 4);
     background-image: url(./assets/gun.png);
@@ -40,5 +50,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    user-select: none;
 
 }
