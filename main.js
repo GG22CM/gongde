@@ -1,4 +1,5 @@
-const muyu = document.getElementById('muyu')
+window.onload = function () {
+    const muyu = document.getElementById('muyu')
 const gun = document.getElementById('gun')
 const totalBox = document.getElementById('totalBox')
 // 
@@ -75,3 +76,5 @@ function animate() {
 }
 
 animate()
+
+}
